@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>Click a headline to see further details</h2>
     <p>
       <select @change="channelSelected($event.target.value)">
         <option>Select</option>
